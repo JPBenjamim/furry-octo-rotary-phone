@@ -26,11 +26,12 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Landing Pages de</span>
-          <span>Alta Conversão</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Seu negócio é</span>
+          <span>.com ou .fora?</span>
           <span>
             Desenvolvedor FrontEnd React, apaixonado pelo código, pelas possibilidades. <br />
-            Deixa eu te ajudar a colocar sua idéia online.
+            Deixa eu te ajudar a colocar sua idéia online. <br />
+          Site, Landing page, loja virtual, eu vou te ajudar a ficar online.
           </span>
         </div>
         <a href="https://api.whatsapp.com/send?phone=5521983729141&text=Eu%20quero%20uma%20p%C3%A1gina%20de%20alta%20convers%C3%A3o" target="_blank" rel="noreferrer">

@@ -25,7 +25,7 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>Meus serviços</span>
-        <span>oferecidos</span>
+        <span>Oferecidos</span>
         <spane>
           Coloco seu projeto no ar, seja ele landing page, site e até ecoomerce
           <br />

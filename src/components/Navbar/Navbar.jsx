@@ -1,20 +1,23 @@
-import React from "react";
-import Toggle from "../Toggle/Toggle";
-import "./Navbar.css";
-import { Link } from "react-scroll";
-import  logo2  from "../../img/logo2.png"
+import React from 'react'
+import Toggle from '../Toggle/Toggle'
+import './Navbar.css'
+import { Link } from 'react-scroll'
+import logo2 from '../../img/logo2.png'
 const navbar = () => {
   return (
     <div className="n-wrapper" id="Navbar">
       {/* left */}
       <div className="n-left">
-        <div className="n-name"> <img src={logo2} alt="" className="logo2" /> 777 Pages</div>
+        <div className="n-name">
+          {' '}
+          <img src={logo2} alt="" className="logo2" />  B3N DSN
+        </div>
         <Toggle />
       </div>
       {/* right */}
       <div className="n-right">
         <div className="n-list">
-          <ul style={{ listStyleType: "none" }}>
+          <ul style={{ listStyleType: 'none' }}>
             <li>
               <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
                 Home
@@ -43,11 +46,11 @@ const navbar = () => {
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contato</button>
+          <button className="button n-button">Contato</button>
         </Link>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default navbar;
+export default navbar
