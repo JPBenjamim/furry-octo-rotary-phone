@@ -84,14 +84,13 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="" target={'_blank'} rel="noreferrer">
             <img src={Entrego} alt="" />
-          </a>
+          
         </SwiperSlide>
         <SwiperSlide>
-          <a href="" target={'_blank'} rel="noreferrer">
+          
             <img src={Henry} alt="" />
-          </a>
+          
         </SwiperSlide>
         
       </Swiper>
